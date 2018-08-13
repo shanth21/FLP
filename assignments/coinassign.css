@@ -1,0 +1,29 @@
+body {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+	background-color: #21abc2;
+	font-size: 40px;
+
+}
+
+input{
+	padding:30px;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+#ru10,#ru5,#ru2,#ru1{
+	padding-bottom: 20px;
+}
+
+button{
+	padding:20px;
+	margin-top: 30px;
+	font-size: 20px;
+	margin-left: 440px; 
+}

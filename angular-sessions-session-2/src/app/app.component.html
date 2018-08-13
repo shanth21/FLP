@@ -1,0 +1,32 @@
+<div class="container">
+<div class="row">
+<div class="col-sm-5">	
+<input placeholder="Name"  [(ngModel)]="form.name" (input)="validName($event)" class="form-control">
+<div class="warning">{{notName}}</div>
+<input placeholder="Phone"  [(ngModel)]="form.phone" (input) = "validPhoneNum($event)" class="form-control">
+<div class="warning">{{notPhoneNum}}</div>
+<input placeholder="City" [(ngModel)]="form.city" class="form-control">
+<button class="btn btn-success" (click)="addContact()" >Add</button>
+</div>
+</div>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Phone</th>
+			<th>City</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let contact of contacts; let i = index">
+			<td>{{contact.name}}</td>
+			<td>{{contact.phone}}</td>
+			<td>{{contact.city}}</td>
+			<td><button (click)="deleteContact(i)" class = "btn btn-danger">delete</button></td>
+		</tr>
+	</tbody>
+</table>
+</div>

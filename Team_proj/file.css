@@ -1,0 +1,108 @@
+body {
+    margin: 40px 500px;
+    width: auto;
+    height: 200px;
+    background-color: skyblue;
+   
+}
+
+.layout {
+    background-color: azure;
+    align-items: flex-start;
+    border-color: 00FFFF;
+    height: 200px;
+    width: 700px;
+}
+
+.styled-select{
+    display: inline-block;
+    margin: 40px 
+}
+.layout styled-select {
+   /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+   margin: 40px 30px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; 
+   width: 268px;
+}
+
+
+
+.styled-select.slate {
+   /*background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;*/
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+.btn {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  color: black;
+}
+
+.wrap {
+  /*height: 100%;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+    color: white;
+    border: 1px solid black;
+    margin-top: 40px;
+    background: rgba(17, 17, 17, 0.6);
+    align-content: center;
+}
+.table td {
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.table th {
+    padding: 25px;
+    font-size: 30px;
+    
+}
+
+.table:hover {
+    box-shadow: 2px 4px 10px 4px white; 
+}

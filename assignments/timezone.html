@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>timezone</title>
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Special+Elite|Yellowtail" rel="stylesheet">
+	<style>
+		body{
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			 	
+			flex-direction: column;
+			background: url(earth.jpg);
+			background-position: top;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		h1{
+			font-size: 80px;
+			color: #00046A;
+			font-family: 'Special Elite', cursive;
+
+		}
+
+		button{
+			padding: 50px;
+			font-size: 60px;
+			border-radius: 50px;
+			border:2px solid #000000;
+			outline: none;
+			background-color: #001;
+			color: yellow; 	
+			font-family: 'Yellowtail', cursive;
+
+		}
+
+		#demo{
+			padding-top: 300px;
+			font-size: 70px;
+			color: white;
+			font-family: 'Gochi Hand', cursive;
+
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+<h1>Timezone </h1>
+
+<button onclick="myFunction()">check</button>
+
+<p id="demo"></p>
+
+		
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getTimezoneOffset();
+    document.getElementById("demo").innerHTML = "UTC = GMT " + n;
+}
+</script>
+
+	</center>
+
+	<div class="home"><a href="/home/vinay/code/FL/Assignment1/test.html">Home</a></div>
+	 
+</body>
+</html>

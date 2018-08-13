@@ -1,2 +1,2 @@
 # FLP
-My Repository for FLP
+My Repository for Freshers Learning Program

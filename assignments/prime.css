@@ -1,0 +1,57 @@
+body{
+	color: black;
+	background-color: #3498db;
+	margin: 0 auto;
+	font-family: 'Righteous', cursive;
+
+}
+
+#div1{
+	display: flex;
+	align-items: center;
+	
+	height: 90vh;
+	flex-direction: column;
+
+}
+
+#head{
+	font-size: 60px;
+	font-style: italic;	
+}
+
+
+#input1{
+	padding: 40px;
+	margin: 40px;
+	font-size: 40px;
+	border-radius: 40px;
+	border :3px solid black;
+	outline: none;
+	font-family: 'Courgette', cursive;
+	
+
+}
+
+#btn{
+	background-color: #1D9;
+	border: 1px solid #1D9;
+	color: darkblue	;
+	font-size: 50px;
+	margin-top: 40px;
+	outline: none;
+	font-family: 'Satisfy', cursive;
+
+
+}
+
+#res,#res1{
+	color: maroon;
+	font-size: 70px;
+	font-family: 'Caveat', cursive;
+
+
+}
+
+
+

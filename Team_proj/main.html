@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="file.css"/>
+    <script src="file.js"></script>
+</head>
+	<body>
+		  <div class="layout">
+            <div class="styled-select slate"> 
+			<select id = "num_select">
+                <option value="0">Select row</option>
+				<option value="1">Row 1</option>
+				<option value="2">Row 2</option>
+				<option value="3">Row 3</option>
+				<option value="4">Row 4</option>
+				<option value="5">Row 5</option>				
+			</select>
+            </div>
+            
+            <div class="styled-select slate">
+			<select id = "color_select">
+                <option value="">Select color</option>
+				<option value="red" style="background-color: red;">Red</option>
+				<option value="green" style="background-color: green;">Green</option>
+				<option value="blue" style="background-color: blue;" >Blue</option>
+				<option value="violet" style="background-color: violet;">Violet</option>
+				<option value="orange" style="background-color: orange;">Orange</option>				
+			</select>
+            </div>
+              <div class="wrap">
+              <button class="btn" id = "button">Submit</button>
+              </div>
+            </div>
+            
+		<table class ="table" width = "700px;">
+			<thead>
+				<th>Name</th>
+				<th>Color</th>
+			</thead>
+		<tbody id="list">
+		</tbody>
+		</table>
+    
+	</body>
+</html>

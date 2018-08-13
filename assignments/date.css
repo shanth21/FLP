@@ -1,0 +1,51 @@
+.date{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+
+	background-color: rgb(220,110,70);
+	
+
+}
+
+span {
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 50px;
+	color: blue;
+	font-size: 100px;
+	padding-left: 30px;
+}
+
+#dat{
+	padding: 20px;
+	margin: 50px;
+
+}
+
+
+#btn {
+	padding: 20px;
+	border-radius: 50px;
+	font-size: 25px;
+	color: white;
+	background-color: lightgray;
+	border:2px solid black;
+	font-family: 'Pacifico', cursive;
+	outline: none;
+
+
+}
+
+
+#btn:hover {
+	background-color: white;
+	color: black;
+}
+
+#result {
+	color: blue;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+}

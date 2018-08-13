@@ -1,0 +1,38 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85vh;
+	flex-direction: column;
+	background-color: #222222;
+
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	color: white;
+}
+#num{
+	padding: 30px;
+	font-size: 30px;
+	border-radius: 60px;
+	outline: none;
+	font-family: 'Pacifico', cursive;
+
+}
+#btn {
+	margin: 30px;
+	padding: 20px;	
+	font-size: 50px;
+	background-color: #222222;
+	color: yellow;
+	border : 2px solid #222222;
+	outline: none;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+
+#output{
+	font-size: 90px;
+	color: maroon;
+}

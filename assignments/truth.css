@@ -1,0 +1,60 @@
+body{
+	background-color: tomato;
+	
+	
+
+}
+
+h1{
+	color: maroon;
+	font-size: 60px;
+	text-shadow: 7px 4px black;
+	font-family: 'Hanalei Fill', cursive;
+
+
+}
+#calc-layout{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	flex-direction: column;
+
+}
+
+
+#and, #or, #not {
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+	background-color: #444;
+	color: white;
+	border-radius: 30px;
+	border:2px solid black;
+	outline: none;
+}
+
+#and:hover , #or:hover , #not:hover {
+	background-color: lightyellow;
+	color: black;
+	box-shadow: 20px 15px 50px;
+}
+
+
+#output{
+	color: maroon;
+	font-size: 50px;
+	font-family: 'Kirang Haerang', cursive;
+
+}
+
+#input1, #input2 {
+	border : 3px solid black;
+	padding: 30px;
+	font-size: 30px;
+	color: rgb(0,220,200);
+	font-family: 'Lobster', cursive;
+	border-radius: 50px;
+	outline: none;
+
+}
