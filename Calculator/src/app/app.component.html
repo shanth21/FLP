@@ -1,0 +1,4 @@
+  <h1>My Calculator</h1>
+  <app-textfield #apptextfield></app-textfield>
+  <app-calc #appcalc (myNewEvent)="apptextfield.displayResult($event)"></app-calc>
+  <app-buttons (myEvent)="appcalc.calculate($event)"></app-buttons>
