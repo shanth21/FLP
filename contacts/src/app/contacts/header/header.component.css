@@ -1,0 +1,17 @@
+span{
+	opacity: 0.70;
+	margin-left: 15px;
+}
+
+nav{
+	height: 65px;
+}
+
+#navBarSearchForm{
+	margin-left: 50px;
+	width: 700px !important;
+}
+
+mat-icon{
+	color: white;	
+}

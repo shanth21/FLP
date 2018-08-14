@@ -1,0 +1,31 @@
+.container{
+	margin-top: 35px;
+}
+
+mat-icon{
+	position: relative;
+	top: 7.5px;
+	left: 15px;
+	margin-right: 5px;
+	font-size: 40px;
+}
+
+input{
+	width: 450px;
+}
+
+.form-layout{
+	margin-top: 15px;
+}
+
+.btn{
+	margin-top: 10px;
+}
+
+.error{
+	color: red;
+	margin-bottom: 10px;
+}
+
+	
+

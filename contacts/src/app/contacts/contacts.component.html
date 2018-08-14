@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<ul class="list-group">
+				<a class="list-group-item" style="cursor: pointer"
+			*ngFor = "let contact of contacts">
+				<div class="contact-align">
+				<div class="left-align"><mat-icon>account_circle</mat-icon>{{contact.name}}</div>
+				<div class="right-align"><mat-icon>phone</mat-icon>{{contact.number}}</div>
+			</div>
+			</a>
+			</ul>
+		</div>
+		</div>
+	</div>		

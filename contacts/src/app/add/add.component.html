@@ -1,0 +1,21 @@
+<div class="container">
+<div class="row">
+<div class="col-xs-12">	
+<h1>Add a new contact<mat-icon>contact_phone</mat-icon></h1>
+</div>
+</div>
+<div class="row">
+	<div class="col-md-10 form-layout">
+		<form [formGroup] = "contactForm">
+			<label>Name<input type="text" class = "form-control" formControlName = "name" /></label><br>
+			<div class="error" *ngIf = "contactForm.controls.name.invalid && contactForm.controls.name.dirty">Name field is empty</div>
+			<label>Phone<input type="text" class = "form-control" formControlName = "phone" /></label><br>
+			<div class="error" *ngIf = 	"contactForm.controls.phone.invalid && contactForm.controls.phone.dirty">
+			<div *ngIf = "contactForm.controls.phone.errors.required">Number field is empty</div>
+			<div *ngIf="contactForm.controls.phone.errors.maxlength">Number must exactly be 10 digits!</div>
+		</div>
+		<button class="btn btn-outline-primary">Add to contacts</button>
+		</form>
+	</div>
+	</div>
+</div>
