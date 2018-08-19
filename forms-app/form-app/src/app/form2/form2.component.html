@@ -1,0 +1,25 @@
+<div class="flex-layout">
+    <div class="card-layout">
+      <form class="form" [formGroup] = "form2">
+        <h1>Educational Details</h1>
+          <mat-form-field class="full-width-layout">
+              <input type = "text" matInput placeholder="College" formControlName = "college" />
+          </mat-form-field>
+          
+            <mat-form-field class="full-width-layout">
+              <input type="text" matInput placeholder="CGPA/Aggregate" formControlName = "cgpa" />
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-select placeholder="Branch" formControlName = "branch">
+                <mat-option *ngFor="let branch of branches" [value]="branch.value">
+                  {{branch.value}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+            
+            <button [disabled] = "form2.invalid" type="button" mat-fab color="primary" (click) = "onNavigateBehind()"><mat-icon>arrow_back</mat-icon></button>
+      </form>
+    </div>
+  </div>
+  

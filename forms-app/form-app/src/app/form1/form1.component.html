@@ -1,0 +1,28 @@
+<div class="flex-layout">
+  <div class="card-layout">
+    <form class="form" [formGroup]="form">
+      <h1>Personal Details</h1>
+        <mat-form-field class="full-width-layout">
+            <input type="text" matInput placeholder="Name" formControlName="name">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+              <input type="text" matInput placeholder="Birthday" formControlName="dob">
+              <mat-icon matSuffix>date_range</mat-icon>
+            </mat-form-field>
+
+          <mat-form-field class="full-width-layout">
+              <input type="text" matInput placeholder="Phone" formControlName="phone">
+              <mat-icon matSuffix>phone</mat-icon>
+            </mat-form-field>
+
+            <mat-radio-group formControlName="gender">
+              <mat-radio-button value="male">Male</mat-radio-button>
+              <mat-radio-button value="female">Female</mat-radio-button>
+              <mat-radio-button value="others">Others</mat-radio-button>
+            </mat-radio-group>
+            
+          <button [disabled]="form.invalid" type="button" mat-fab color="primary" (click) = "onNavigateForward()"><mat-icon>arrow_forward</mat-icon></button>
+    </form>
+  </div>
+</div>

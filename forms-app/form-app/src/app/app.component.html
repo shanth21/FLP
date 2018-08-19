@@ -1,0 +1,3 @@
+<mat-toolbar color="primary" role="heading"><span>Google Forms</span></mat-toolbar>
+<app-form1 (screenChange) = "changeScreen($event)" *ngIf = "screen" [(data)]="formData"></app-form1>
+<app-form2  (screenChange) = "changeScreen($event)" *ngIf = "!screen" [(data2)] = "formData2"></app-form2> 
