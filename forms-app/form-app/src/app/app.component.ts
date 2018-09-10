@@ -23,10 +23,15 @@ export class FormModel {
   dob: any;
   phone: string;
   gender: string;
-}
-
-export class FormModel2{
   college: string;
   cgpa: string;
   branch: string;
+
+}
+
+export class FormModel2 {
+  college: string;
+  cgpa: string;
+  branch: string;
+  
 }

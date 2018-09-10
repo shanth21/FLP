@@ -1,2 +1,13 @@
+.mat-toolbar{
+  background-color: white;
+}
 
+span{
+  display: flex;
+  padding-left: 5px;
+}
 
+span>img{
+  height: 30px;
+  margin-right: 5px;
+}
