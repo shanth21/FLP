@@ -1,0 +1,15 @@
+<h1>List of employees at Accion Labs</h1>
+<input type="text" [(ngModel)] = "filteredName" placeholder="Enter Name">
+
+<ul>
+  <li *ngFor = "let employee of employees | search:filteredName: 'firstname' | sort: 'firstname'">
+
+      Firstname: {{employee.firstname}} 
+      Surname: {{employee.surname}}
+      Mobile: {{employee.mobile}}
+      Email: {{employee.email}}
+      DOB: {{employee.dob}}
+      Gender: {{employee.gender}} 
+
+  </li>
+</ul>
