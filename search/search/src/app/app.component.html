@@ -2,7 +2,7 @@
 <input type="text" [(ngModel)] = "filteredName" placeholder="Enter Name">
 
 <ul>
-  <li *ngFor = "let employee of employees | search:filteredName: 'firstname' | sort: 'firstname'">
+  <li *ngFor = "let employee of employees | search:filteredName: 'firstname': 'surname'|sort: 'firstname':'surname'">
 
       Firstname: {{employee.firstname}} 
       Surname: {{employee.surname}}

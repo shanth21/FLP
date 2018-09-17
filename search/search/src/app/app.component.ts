@@ -21,7 +21,7 @@ export class AppComponent {
   },
   {
     "_id": "5b98b56ff9aacc1187abbe4e",
-    "firstname": "Vinay",
+    "firstname": "Vinayaka",
     "surname": "kashyap",
     "mobile": 8817271005,
     "email": "vinaykashyap@accionlabs.com",
@@ -34,7 +34,7 @@ export class AppComponent {
   {
     "_id": "5b98b56ff9aacc1187abbe4e",
     "firstname": "Shanth",
-    "surname": "K",
+    "surname": "Kua",
     "mobile": 9480869029,
     "email": "shanth.gait@accionlabs.com",
     "dob": 17091996,

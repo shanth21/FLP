@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { SearchPipe } from './search.pipe';
 import { SortPipe } from './sort.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     SearchPipe,
-    SortPipe
+    SortPipe,
+   
   ],
   imports: [
     BrowserModule,
